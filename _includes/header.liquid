@@ -135,6 +135,12 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language Toggle -->
+          <li class="toggle-container">
+            <button id="lang-toggle" title="Toggle language (切换语言)" onclick="toggleLanguage()">
+              <span id="lang-text" style="font-weight: 600;">{{ site.lang | replace: 'zh-CN', '中文' | replace: 'en', 'EN' }}</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>

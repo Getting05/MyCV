@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: 陈冠廷 # the website title (if blank, full name will be used instead)
+first_name: Guanting
+middle_name:
+last_name: Chen
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  欢迎通过邮箱联系我，邮件是最稳定的沟通方式。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  陈冠廷个人主页 | Robotics, Embodied AI, Visual Perception
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: cn # the language of your site (for example: en, fr, cn, ru, etc.)
+keywords: robotics, embodied-ai, slam, reinforcement-learning, computer-vision
+lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://cv.getting132.top/ # the base hostname & protocol for your site
@@ -91,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Chen Guanting Blog # blog_name will be displayed in your blog page
+blog_description: personal notes on robotics and embodied intelligence
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
