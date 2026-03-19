@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Getting05.github.io/MyCV/sitemap.xml
+Sitemap: https://cv.getting132.top//sitemap.xml
