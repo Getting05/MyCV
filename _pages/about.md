@@ -10,7 +10,7 @@ lang_toggle: true
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: myphoto.jpg
   image_circular: false
   more_info: >
     <p>电话: (+86) 13365983865</p>
