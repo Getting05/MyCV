@@ -18,7 +18,7 @@ profile:
     <p>Chengdu, China</p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
