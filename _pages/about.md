@@ -18,7 +18,7 @@ profile:
     <p>成都, 中国</p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
