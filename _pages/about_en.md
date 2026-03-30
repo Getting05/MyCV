@@ -42,18 +42,17 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - Rank (first 5 semesters): 11/164 (Top 7%)
 - Core courses: Automatic Control (93), Intro to Programming (94), Data Structures and Algorithms (92), Computer Organization and Design (96), Computer Networks and Communication (95)
 
-## Competitions
+## Projects & Competitions
 
-### 25th RoboCon Main Track (Vision Algorithm Team Leader)
+### 25th RoboCon Main Track (Vision Algorithm Team Leader) | 2025.09 - Present
+- **Localization & Mapping (SLAM) and Target Recognition**: Deployed FAST-LIVO2 SLAM with Mid360 LiDAR for mapping and high-precision localization.
+- **Global Map Relocalization**: Independently innovated a highly robust relocalization module by combining Teaser++ global registration with GICP local refinement. Compared to traditional RM methods (~10s for small initial deviations), this approach achieves millisecond-level localization even with large initial deviations and significant occlusion.
 
-- Integrated and optimized relocalization in FAST-LIVO2 under unknown initial pose.
-- Built a cascaded pipeline with Teaser++ global registration and GICP local refinement, reaching robust real-time pose matching in large occlusion scenarios.
-
-### 25th RoboCon Quadruped Track (Vision Algorithm Team Leader)
-
-- Adapted a self-designed 12-DOF quadruped to the HIMLoco framework and built RL training environments with terrain curriculum and dynamics constraints.
-- Independently developed Sim2Sim and Sim2Real transfer modules, including Isaac Gym to MuJoCo cross-validation and hardware deployment solutions.
-- Expanded control stack with MPC/VMC exploration and led Nav2 navigation framework integration.
+### 12-DOF Quadruped Robot (RoboCon Quadruped Track)
+- **RL Training and Deployment**: Introduced reinforcement learning algorithms to a custom 12-DOF robot system for locomotion control based on the HIMLoco framework. Completed policy training, simulation verification, and deployment process design, achieving Sim-to-Sim and Sim-to-Real transfer to improve policy robustness and adaptability.
+- **Full-Stack Capability**: Independently managed the entire pipeline: structural design participation, URDF/XML modification, parameter tuning in legged_gym, Sim2Sim (Isaac Gym to MuJoCo) and Sim2Real bridging, and deployment on Jetson Xavier edge devices.
+- **Features**: Supports LAN web remote control. Utilizes libtorch C++ inference engine to output target joint actions based on angular velocity.
+- **Next Steps**: Transplanting the Extreme-Parkour project to the custom quadruped for obstacle courses, and exploring MPC/VMC algorithms to meet diverse terrain requirements.
 
 ### Additional Awards
 
@@ -62,20 +61,24 @@ My current interests focus on robotics, embodied AI, and visual perception.
 
 ## Research
 
-### Embodied Benchmark Dataset Practice (Second Author, ECCV 2026 under submission)
+### Embodied Sweeping Robot Benchmark Dataset Practice (Second Author, ECCV 2026 under submission)
+- **Simulation and Testing Environment**: Built high-fidelity simulation scenarios and developed testing environments in Isaac Sim for sweeping and grasping tasks.
+- **Physical Interaction Design**: Constructed physically realistic mobile sweeping robot chassis and 6-DOF robotic arms. Designed physical interaction environments for "sweeping" and "grasping" tasks and formulated multi-dimensional quantitative evaluation metrics.
+- **Skills Gained**: Proficient in scene model building in Isaac Sim and ROS/ROS2 communication for action control.
 
-- Built high-fidelity simulation and evaluation environments for sweeping and grasping tasks in Isaac Sim.
+### Multimodal Visual Defect Detection Model Research Based on SFT+GRPO (Project Lead)
+- **Project Background**: Addressed urban underground drainage pipe issues (roots, obstacles) by developing a specialized multimodal visual model for sewer defect detection.
+- **Core Work**: Fine-tuned the Qwen3-VL model combining SFT and GRPO schemes with multimodal input processing. Optimized RL objective functions with IoU and format rewards to significantly improve detection accuracy.
+- **Research Stages**: 
+  - STAGE 1: Supervised Fine-Tuning (SFT) based on the QWEN3-VL foundation model.
+  - STAGE 2: Group Relative Policy Optimization (GRPO) training loop to achieve robust defect detection capabilities.
 
-### Multimodal Defect Detection with SFT+GRPO (Project Lead)
+## Skills & Self-Evaluation
 
-- Developed a multimodal visual model for sewer defect detection.
-- Fine-tuned Qwen3-VL with optimized RL objectives combining IoU and format rewards.
-
-## Skills
-
-- Linux, Python, C/C++, ROS, MATLAB
-- PCB design, STM32/ESP32/ESP8266, Jetson Xavier deployment
-- SolidWorks, 3DBuilder, 3D printing
+- **Software & Systems**: Ubuntu/Linux, Python, C/C++, ROS2. Proficient in robot navigation, localization, robotic arm manipulation, and 2D/3D target recognition.
+- **Simulation Platforms**: Isaac Gym, Isaac Sim, Gazebo, MuJoCo.
+- **Hardware & Deployment**: Embedded development, PCB design, STM32/ESP32/ESP8266, Jetson Xavier edge deployment, hardware production.
+- **Self-Evaluation**: Rich experience in project reproduction, hands-on debugging, and rapid team integration. Actively focusing on the long-term research of quadruped/humanoid robot control, upper limb/manipulator control, dexterous hands, and embodied AI.
 
 ## Gallery (Reserved)
 
