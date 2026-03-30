@@ -48,9 +48,9 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Localization & Mapping (SLAM) and Target Recognition**: Deployed FAST-LIVO2 SLAM with Mid360 LiDAR for mapping and high-precision localization.
 - **Global Map Relocalization**: Independently innovated a highly robust relocalization module by combining Teaser++ global registration with GICP local refinement. Compared to traditional RM methods (~10s for small initial deviations), this approach achieves millisecond-level localization even with large initial deviations and significant occlusion.
 
-<div class="col-sm-4 mt-3 mt-md-0">
-  {% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" %}
-</div>
+
+{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" %}
+
 
 {% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 
@@ -60,9 +60,9 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Features**: Supports LAN web remote control. Utilizes libtorch C++ inference engine to output target joint actions based on angular velocity.
 - **Next Steps**: Transplanting the Extreme-Parkour project to the custom quadruped for obstacle courses, and exploring MPC/VMC algorithms to meet diverse terrain requirements.
 
-<div class="col-sm-4 mt-3 mt-md-0">
+
   {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" %}
-</div>
+
 
 {% include video.liquid path="assets/video/实机.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 
