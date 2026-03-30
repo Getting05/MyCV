@@ -49,10 +49,10 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Global Map Relocalization**: Independently innovated a highly robust relocalization module by combining Teaser++ global registration with GICP local refinement. Compared to traditional RM methods (~10s for small initial deviations), this approach achieves millisecond-level localization even with large initial deviations and significant occlusion.
 
 
-{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
+{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" avoid_scaling=true caption="Relocation demo used by a certain RM team" %}
 
 
-{% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+{% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true caption="My Improved Relocation Demo" %}
 
 ### 12-DOF Quadruped Robot (RoboCon Quadruped Track)
 - **RL Training and Deployment**: Introduced reinforcement learning algorithms to a custom 12-DOF robot system for locomotion control based on the HIMLoco framework. Completed policy training, simulation verification, and deployment process design, achieving Sim-to-Sim and Sim-to-Real transfer to improve policy robustness and adaptability.
@@ -61,10 +61,10 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Next Steps**: Transplanting the Extreme-Parkour project to the custom quadruped for obstacle courses, and exploring MPC/VMC algorithms to meet diverse terrain requirements.
 
 
-  {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" caption="Deployment Architecture of the 12-DOF Quadruped" %}
 
 
-{% include video.liquid path="assets/video/实机.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+{% include video.liquid path="assets/video/实机.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Physical Quadruped Robot Locomotion Demo" %}
 
 ### Additional Awards
 
@@ -85,7 +85,7 @@ My current interests focus on robotics, embodied AI, and visual perception.
   - STAGE 1: Supervised Fine-Tuning (SFT) based on the QWEN3-VL foundation model.
   - STAGE 2: Group Relative Policy Optimization (GRPO) training loop to achieve robust defect detection capabilities.
 
-  {% include figure.liquid path="assets/img/VLM.png" title="VLM" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid path="assets/img/VLM.png" title="VLM" class="img-fluid rounded z-depth-1" caption="SFT+GRPO Based Multimodal Defect Detection Model Structure" %}
 
 
 ## Skills & Self-Evaluation
