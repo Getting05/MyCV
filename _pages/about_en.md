@@ -49,7 +49,7 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Global Map Relocalization**: Independently innovated a highly robust relocalization module by combining Teaser++ global registration with GICP local refinement. Compared to traditional RM methods (~10s for small initial deviations), this approach achieves millisecond-level localization even with large initial deviations and significant occlusion.
 
 
-{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
 
 
 {% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
