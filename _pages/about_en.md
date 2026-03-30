@@ -48,11 +48,23 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Localization & Mapping (SLAM) and Target Recognition**: Deployed FAST-LIVO2 SLAM with Mid360 LiDAR for mapping and high-precision localization.
 - **Global Map Relocalization**: Independently innovated a highly robust relocalization module by combining Teaser++ global registration with GICP local refinement. Compared to traditional RM methods (~10s for small initial deviations), this approach achieves millisecond-level localization even with large initial deviations and significant occlusion.
 
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" %}
+</div>
+
+{% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+
 ### 12-DOF Quadruped Robot (RoboCon Quadruped Track)
 - **RL Training and Deployment**: Introduced reinforcement learning algorithms to a custom 12-DOF robot system for locomotion control based on the HIMLoco framework. Completed policy training, simulation verification, and deployment process design, achieving Sim-to-Sim and Sim-to-Real transfer to improve policy robustness and adaptability.
 - **Full-Stack Capability**: Independently managed the entire pipeline: structural design participation, URDF/XML modification, parameter tuning in legged_gym, Sim2Sim (Isaac Gym to MuJoCo) and Sim2Real bridging, and deployment on Jetson Xavier edge devices.
 - **Features**: Supports LAN web remote control. Utilizes libtorch C++ inference engine to output target joint actions based on angular velocity.
 - **Next Steps**: Transplanting the Extreme-Parkour project to the custom quadruped for obstacle courses, and exploring MPC/VMC algorithms to meet diverse terrain requirements.
+
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" %}
+</div>
+
+{% include video.liquid path="assets/video/实机.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 
 ### Additional Awards
 
@@ -73,6 +85,10 @@ My current interests focus on robotics, embodied AI, and visual perception.
   - STAGE 1: Supervised Fine-Tuning (SFT) based on the QWEN3-VL foundation model.
   - STAGE 2: Group Relative Policy Optimization (GRPO) training loop to achieve robust defect detection capabilities.
 
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/img/VLM.png" title="VLM" class="img-fluid rounded z-depth-1" %}
+</div>
+
 ## Skills & Self-Evaluation
 
 - **Software & Systems**: Ubuntu/Linux, Python, C/C++, ROS2. Proficient in robot navigation, localization, robotic arm manipulation, and 2D/3D target recognition.
@@ -80,20 +96,3 @@ My current interests focus on robotics, embodied AI, and visual perception.
 - **Hardware & Deployment**: Embedded development, PCB design, STM32/ESP32/ESP8266, Jetson Xavier edge deployment, hardware production.
 - **Self-Evaluation**: Rich experience in project reproduction, hands-on debugging, and rapid team integration. Actively focusing on the long-term research of quadruped/humanoid robot control, upper limb/manipulator control, dexterous hands, and embodied AI.
 
-## Gallery (Reserved)
-
-<div class="row">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-1.jpg" title="Project Image 1" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-2.jpg" title="Project Image 2" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-3.jpg" title="Project Image 3" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-
-## Video (Reserved)
-
-{% include video.liquid path="assets/video/demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}

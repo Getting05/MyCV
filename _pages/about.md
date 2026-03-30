@@ -48,15 +48,21 @@ latest_posts:
 - **定位与建图（SLAM）与目标识别（主赛道）**：使用 Mid360 激光雷达部署 Fastlivo2 SLAM 算法，实现高质量建图与高精度定位。
 - **全局地图重定位优化**：在该算法基础上增加全局地图重定位功能，独创性地将 Teaser++ 与 GICP 结合。相比传统 RM 比赛重定位方法（初始位置偏差小时仍需约十秒完成定位），改进后的重定位方法在初始位置偏差大、遮盖多的情况下也能实现毫秒级快速定位。
 
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" %}
+</div>
+
 {% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 
 ### 12 自由度四足机器人（四足赛道）
 - **强化学习训练及部署**：针对四足机器人运动控制任务，将强化学习算法引入团队自主建模的 12 自由度机器人系统；基于 HIMLoco 框架，完成策略训练、仿真验证及部署流程设计，实现 Sim-to-Sim 与 Sim-to-Real 迁移，提升策略在真实环境中的鲁棒性与适应能力。
 - **全链路开发能力**：独立完成从结构设计参与、修改 URDF/XML 适配训练环境，到基于 legged_gym 训练框架调参训练，再到 Sim-to-Sim（Isaac Gym 到 MuJoCo）与 Sim-to-Real 的搭建，以及在 Jetson Xavier 边缘计算设备上的部署，掌握四足机器人从设计到落地的全流程。
 
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/img/12DOF.png" title="四足机器人部署图" class="img-fluid rounded z-depth-1" %}
+</div>
+
+{% include video.liquid path="assets/video/实机.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 
 ### 其他竞赛与荣誉
 - 2025 中国机器人大赛暨 RoboCup 中国赛（FIRA 小型组）全国三等奖，核心成员。
@@ -76,6 +82,10 @@ latest_posts:
   - STAGE 1：Supervised Fine-Tuning (SFT)，基于 Qwen3-VL 基础模型进行 SFT 训练。
   - STAGE 2：Group Relative Policy Optimization (GRPO)，通过 GRPO 优化循环完成模型训练，实现强大的缺陷检测能力。
 
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid path="assets/img/VLM.png" title="VLM" class="img-fluid rounded z-depth-1" %}
+</div>
+
 ## 技能与自我评价
 
 - **能力定位**：拥有丰富的机器人软硬件基础，熟练在 Ubuntu 系统下进行基于 ROS2 的机器人开发；熟悉 Isaac Gym、Isaac Sim、Gazebo、MuJoCo 等仿真平台；掌握机器人导航与定位、机械臂操作、2D 和 3D 目标识别技术；具备嵌入式开发、PCB 设计及硬件制作经验。
@@ -83,20 +93,4 @@ latest_posts:
 - **研究关注**：长期积极关注四足及人形机器人控制、上肢/机械臂控制、灵巧手等具身智能领域的研究。
 - **学生工作与公益**：机器人足球协会部长，累计志愿服务 200+ 小时。
 
-## 图片展示（预留）
 
-<div class="row">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-1.jpg" title="项目展示图 1" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-2.jpg" title="项目展示图 2" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/demo-3.jpg" title="项目展示图 3" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-
-## 视频展示（预留）
-
-{% include video.liquid path="assets/video/demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
