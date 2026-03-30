@@ -48,7 +48,7 @@ latest_posts:
 - **定位与建图（SLAM）与目标识别（主赛道）**：使用 Mid360 激光雷达部署 Fastlivo2 SLAM 算法，实现高质量建图与高精度定位。
 - **全局地图重定位优化**：在该算法基础上增加全局地图重定位功能，独创性地将 Teaser++ 与 GICP 结合。相比传统 RM 比赛重定位方法（初始位置偏差小时仍需约十秒完成定位），改进后的重定位方法在初始位置偏差大、遮盖多的情况下也能实现毫秒级快速定位。
 
-{% include figure.liquid path="assets/gif/XQ.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
+{% include figure.liquid path="https://raw.githubusercontent.com/PolarisXQ/Fast-LIO2-Localization/refs/heads/master/reloc.gif" title="RM的重定位" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
 
 {% include video.liquid path="assets/video/relocalization.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 

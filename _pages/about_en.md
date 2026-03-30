@@ -85,9 +85,8 @@ My current interests focus on robotics, embodied AI, and visual perception.
   - STAGE 1: Supervised Fine-Tuning (SFT) based on the QWEN3-VL foundation model.
   - STAGE 2: Group Relative Policy Optimization (GRPO) training loop to achieve robust defect detection capabilities.
 
-<div class="col-sm-4 mt-3 mt-md-0">
   {% include figure.liquid path="assets/img/VLM.png" title="VLM" class="img-fluid rounded z-depth-1" %}
-</div>
+
 
 ## Skills & Self-Evaluation
 
