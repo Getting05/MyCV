@@ -39,7 +39,7 @@ My current interests focus on robotics, embodied AI, and visual perception.
 
 - Sichuan University (Project 985 / Double First-Class), Automation, 2023.09 - Present
 - Weighted required-course GPA (first 5 semesters): 89.78
-- Rank (first 5 semesters): 12/164 (Top 7%)
+- Rank (first 5 semesters): 12/170 (Top 7%)
 - Core courses: Automatic Control (93), Intro to Programming (94), Data Structures and Algorithms (92), Computer Organization and Design (96), Computer Networks and Communication (95)
 
 ## Projects & Competitions
