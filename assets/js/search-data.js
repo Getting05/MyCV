@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-微信二维码",
+          title: "微信二维码",
+          description: "扫码添加我的微信",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/wechat/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
